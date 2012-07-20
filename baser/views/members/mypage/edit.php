@@ -1,7 +1,7 @@
 <?php
 /* SVN FILE: $Id$ */
 /**
- * メールプラグインコントローラー根底クラス
+ * [MYPAGE] メンバー編集（デモ用）
  *
  * PHP versions 5
  *
@@ -10,19 +10,12 @@
  *
  * @copyright		Copyright 2008 - 2012, baserCMS Users Community
  * @link			http://basercms.net baserCMS Project
- * @package			baser.plugins.mail
+ * @package			baser.views.layout
  * @since			baserCMS v 0.1.0
  * @version			$Revision$
  * @modifiedby		$LastChangedBy$
  * @lastmodified	$Date$
  * @license			http://basercms.net/license/index.html
  */
-/**
- * Include files
- */
-/**
- * メールプラグインコントローラー根底クラス
- *
- * @package			baser.plugins.mail
- */
-class MailAppController extends BaserPluginAppController {}
+?>
+<h1><?php $bcBaser->contentsTitle() ?></h1>

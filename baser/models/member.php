@@ -1,7 +1,7 @@
 <?php
 /* SVN FILE: $Id$ */
 /**
- * メールプラグインコントローラー根底クラス
+ * メンバーモデル
  *
  * PHP versions 5
  *
@@ -10,7 +10,7 @@
  *
  * @copyright		Copyright 2008 - 2012, baserCMS Users Community
  * @link			http://basercms.net baserCMS Project
- * @package			baser.plugins.mail
+ * @package			baser.models
  * @since			baserCMS v 0.1.0
  * @version			$Revision$
  * @modifiedby		$LastChangedBy$
@@ -18,11 +18,23 @@
  * @license			http://basercms.net/license/index.html
  */
 /**
- * Include files
- */
-/**
- * メールプラグインコントローラー根底クラス
+ * メンバーモデル
  *
- * @package			baser.plugins.mail
+ * @package baser.models
  */
-class MailAppController extends BaserPluginAppController {}
+class Member extends User {
+/**
+ * クラス名
+ *
+ * @var string
+ * @access public
+ */
+	var $name = 'Member';
+/**
+ * テーブル名
+ *
+ * @var string
+ * @access public
+ */
+	var $useTable = 'users';
+}
