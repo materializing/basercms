@@ -5,9 +5,7 @@ app/config/install.php
 app/db/*
 !app/db/empty
 app/plugins/*
-!app/plugins/blog
-!app/plugins/mail
-!app/plugins/feed
+!app/plugins/empty
 app/webroot/files/*
 !app/webroot/files/empty
 app/tmp/*
@@ -16,10 +14,8 @@ app/views/pages/
 app/webroot/themed/*
 !app/webroot/themed/empty
 baser/vendors/PEAR/
-cake/console/
 cake/tests/
 app/webroot/sitemap.xml
 app/tests/
 app/vendors/simpletest/
 app/webroot/test.php
-
