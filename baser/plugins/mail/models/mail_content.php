@@ -225,7 +225,9 @@ class MailContent extends MailAppModel {
 		if(!$this->data['MailContent']['exclude_search']) {
 			$this->saveContent($this->createContent($this->data));
 		} else {
-			$this->deleteContent($this->data['MailContent']['id']);
+			if(isset ($this->data['MailContent']['id'])) {
+				$this->deleteContent($this->data['MailContent']['id']);
+			}
 		}
 
 	}
