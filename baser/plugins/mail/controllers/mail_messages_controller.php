@@ -115,6 +115,7 @@ class MailMessagesController extends MailAppController {
 		$this->set(compact('mailFields'));
 		$this->set(compact('messages'));
 		$this->pageTitle = '受信メール一覧';
+		clearAllCache();
 
 	}
 /**
